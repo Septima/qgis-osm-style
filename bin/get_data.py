@@ -26,8 +26,8 @@ createdir( tmpdir )
 createdir( datadir )
 createdir( styledir )
 		
-#download( geofabrik )
+download( geofabrik )
 download( styles )
 
-#unzip( geofabrik )
+unzip( geofabrik )
 unzip( styles )

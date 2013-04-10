@@ -15,7 +15,13 @@ for /r %%x in (OSGeo4W.bat) do (
 GOTO :notfound
 
 :success
+ECHO Getting data
 python bin\get_data.py
+
+ECHO Creating shapefile indices
+FOR %%f IN (data\*.shp) DO (
+	ogrinfo -sql "CREATE SPATIAL INDEX ON %%~nf" %%f
+)
 
 GOTO :eof
 
