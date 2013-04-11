@@ -4,9 +4,9 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>7.288603</xmin>
+            <xmin>7.288602</xmin>
             <ymin>53.563455</ymin>
-            <xmax>15.975287</xmax>
+            <xmax>15.975288</xmax>
             <ymax>58.685485</ymax>
         </extent>
         <projections>0</projections>
@@ -23,7 +23,7 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="false">
+    <legend updateDrawingOrder="true">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="buildings" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="buildings20130403100953450" visible="1"/>
@@ -39,11 +39,6 @@
                 <legendlayerfile isInOverview="0" layerid="places20130403101517536" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="waterways" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="waterways20130403100954080" visible="1"/>
-            </filegroup>
-        </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="roads" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="roads20130403100953945" visible="1"/>
@@ -57,6 +52,11 @@
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="points" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="points20130403100953856" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="waterways" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="waterways20130403100954080" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="natural" showFeatureCount="0">
