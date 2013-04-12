@@ -16,6 +16,13 @@ def download( f ):
 def unzip( f ):
 	print "Unzipping ", f['tmpfilename'], " into ", f['destination']
 	zip = zipfile.ZipFile( f['tmpfilename'] )
+	for fname in zip.namelist():
+		outfpath = os.path.join( f['destination'], fname)
+		if os.path.exists( outfpath ):
+			try:
+				os.remove( outfpath )
+			except:
+				pass
 	zip.extractall( f['destination'] )
 
 def createdir( d ):
