@@ -3,7 +3,7 @@ qgis-osm-style
 
 En let og hurtig måde at få OpenStreetMap vektor data ind i QGIS med nogenlunde udholdelige styles.
 
-Projektet er hurtigt strikket sammen til eget og kollegaernes brug, men andre kunne måske have glæde af at komme nemt i gang med OSM og QGIS. Fejl og problemer kan rapporteres på projektets [issuetracker](https://github.com/AsgerPetersen/qgis-osm-style/issues).
+Projektet er hurtigt strikket sammen til eget og kollegaernes brug, men andre kunne måske have glæde af at komme nemt i gang med OSM og QGIS. Fejl og problemer kan rapporteres på projektets [issuetracker](https://github.com/Septima/qgis-osm-style/issues).
 
 Features
 --------------
@@ -13,7 +13,7 @@ Features
 
 Vejledning
 --------------
-1.  Download qgis-osm-style her https://github.com/AsgerPetersen/qgis-osm-style/archive/master.zip
+1.  Download qgis-osm-style her https://github.com/Septima/qgis-osm-style/archive/master.zip
 2.  Unzip filen i en folder. I denne folder vil de downloadede OSM data og styles blive placeret.
 3.  Dobbeltklik på filen get_data.bat. Dette starter et script, som downloader og arrangerer data. Det kan tage lidt tid.
 4.  Åbn QGIS projektfilen styled_osm.qgs
@@ -21,7 +21,7 @@ Vejledning
 
 Tip: Projektfilen er i EPSG:4326 (Længde/breddegrader), hvis du vil arbejde med data i EPSG:25832 (UTM32 EUREF89), så klikker du på globen i nederste højre hjørne af QGIS. Herved får du dialogen til indstilling af projektets koordinatreferencesystem. I denne dialog slår du 'on the fly' transformation til og vælger EPSG:25832 fra listen af koordinatreferencesystemer.
 
-![Screendump med stylede data](https://github.com/AsgerPetersen/qgis-osm-style/raw/readme-content/img/screendump.png)
+![Screendump med stylede data](https://github.com/Septima/qgis-osm-style/raw/readme-content/img/screendump.png)
 
 Licens
 --------------
