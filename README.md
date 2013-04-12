@@ -10,6 +10,7 @@ Features
 1.  Downloader, udpakker og opretter spatielle index på OSM data fra http://www.geofabrik.de/. Indtil videre downloades kun Danmark.
 2.  Indeholder en fiks og færdig QGIS projekt-fil, som peger på de downloadede data.
 3.  Downloader individuelle styles-filer fra opfinderne af de anvendte styles https://github.com/3liz/osm-in-qgis
+4.  Gør daglig opdatering af OSM data til en leg.
 
 Vejledning
 --------------
